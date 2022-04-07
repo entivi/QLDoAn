@@ -1,10 +1,6 @@
-const a  = document.getElementsByClassName('form-center')
-a.innerHTML += '<h1>Kiểm tra lại</h1>'
-
 
 const navV = document.getElementsByClassName("vertical-nav")[0];
 const barsLeft = document.getElementsByClassName("bars");
-console.log(barsLeft)
 for (let i = 0; i < 2; i++) {
     let item = barsLeft[i];
     item.addEventListener("click", ()=>{
@@ -20,13 +16,13 @@ for (let i = 0; i < 2; i++) {
 const navItem = document.getElementsByClassName("nav-item dropdown");
 for(let i = 0; i < 2; i++){
     let item = navItem[i];
-    let show = item.getElementsByClassName("navItem")[0];
+    let hidedItem = item.getElementsByClassName("navItem")[0];
     item.addEventListener("click", ()=>{
-        if(show.classList.contains("dropdown-menu")){
-            show.classList.remove("dropdown-menu");
+        if(hidedItem.classList.contains("dropdown-menu")){
+            hidedItem.classList.remove("dropdown-menu");
         }
         else{
-            show.classList.add("dropdown-menu");
+            hidedItem.classList.add("dropdown-menu");
         }
     })
 }

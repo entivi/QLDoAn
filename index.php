@@ -6,78 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <section class = "Form my-4 mx-5">
-        <div class="container">
-            <div id="main1" class="row no-gutters">
-                <img src="login_img.png" alt="" class="col-lg-6 col-md-6  ">
-                <div class="col-lg-6 col-md-6  form-center ">
-                    <form name="signin" method="post" action="#">
-                        <div class="form-row m-3">
-                            <div class="col-lg-12">
-                                <label for="msv" class="label-form">
-                                    Mã sinh viên
-                                </label>
-                                <input id="msv" name="msv" type="text" placeholder="Mã sinh viên" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-row m-3">
-                            <div class="col-lg-12">
-                            <label for="pass" class="label-form">
-                                    Mật khẩu
-                                </label>
-                                <input id="pass" name="pass" type="password" placeholder="Mật khẩu" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-row m-3">
-                            <div class="col-lg-12">
-                                <input type="submit" name="signin" id="signin" value="Đăng nhập" class="form-control btn btn-primary">
-                            </div>
-                        </div>
-                    </form>
-                    <a class = "ml-4" href="">Quên mật khẩu?</a>
-                </div>
-            </div>
+    <div class="signup__container">
+        <div class="container__child signup__thumbnail col-md-6">
+             <div class="signup__overlay"></div>
         </div>
-    </section>
+        <div class="container__child signup__form col-md-6">
+            <form  method="post" action="#">
+                <div class="form-group" style="margin-top:25px">
+                    <label for="username">Tên đăng nhập</label>
+                    <input   class="form-control form-control-solid" type="text"  placeholder="Tên đăng nhập" id="username" name="username">
+                </div>
+                    
+                <div class="form-group">
+                    <label for="password">Mật khẩu</label>
+                    <input  class="form-control form-control-solid" type="password" placeholder="Mật khẩu" id="password" name="password">
+                </div>
+                <div class="m-t-lg">
+                    <button type="submit" name="signin" class="btn btn--form" style="text-transform:uppercase;color:#fff">ĐĂNG NHẬP</button>
+                </div>
+            </form>  
+        </div>
+    </div>
 </body>
 </html>
 
 <style>
-    body{
-        background-color: beige;
-    }
-
-    .row{
-        background-color: #fff;
-    }
+    body {
+    font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
+    background: #e9e9e9;
+  }
+  
+  a,
+  [type="submit"] {
+    transition: all .25s ease-in;
+  }
 </style>
 
 <?php
     // session_start();
-    define('DB_HOST','localhost');
-    define('DB_USER','root');
-    define('DB_PASS','');
-    define('DB_NAME','aci_leave');
-    $conn = mysqli_connect('localhost','root','','aci_leave') or die(mysqli_error());
-
-    // Establish database connection.
-    try
-    {
-        $dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
-    }
-    catch (PDOException $e)
-    {
-        exit("Error: " . $e->getMessage());
-    }
+    include('database/connect.php');
     if(isset($_POST['signin']))
     {
-        $username = $_POST['msv'];
-        $password = md5($_POST['pass']);
+        $username = $_POST['username'];
+        $password = md5($_POST['password']);
 
         $sql ="SELECT * FROM tblemployees where EmailId ='$username' AND Password ='$password'";
         $query= mysqli_query($conn, $sql);
