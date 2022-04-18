@@ -12,6 +12,32 @@
     <?php
         include('includes/header.php');
     ?>
+<div class="navBar">
+    <div class="shape">
+        <div class="shape-item">
+
+        </div>
+
+        <div class="shape-item">
+
+        </div>
+
+        <div class="shape-item">
+
+        </div>
+
+        <div class="shape-item">
+
+        </div>
+
+        <div class="shape-item">
+
+        </div>
+
+    </div>
+
+</div>
+
     <script src="./js/javascript.js"></script>
 </body>
 </html>

@@ -4,11 +4,14 @@ const barsLeft = document.getElementsByClassName("bars");
 for (let i = 0; i < 2; i++) {
     let item = barsLeft[i];
     item.addEventListener("click", ()=>{
+        var temp = document.getElementsByClassName("left-icon")[0];
         if(navV.classList.contains("hide")){
             navV.classList.remove("hide");
+            temp.classList.add("hide");
         }
         else {
             navV.classList.add("hide");
+            temp.classList.remove("hide");
         }
     })
 }

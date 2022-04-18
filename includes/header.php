@@ -20,7 +20,7 @@
           <img src="./img/logo.png" alt="">
         </a>
         <a class="ml-3 bars bars-left">
-          <i class="fa fa-bars"></i>
+          <i style="color: #C4C4C4C2"; class="fa fa-bars"></i>
         </a>
   </div>
 
@@ -64,6 +64,17 @@
 
 </div>
 
+
+<div class="navBar">
+<div class="left-icon hide">
+  <a href="#"><i class="fas fa-home"></i></a>
+  <a href="#"><i class="fas fa-border-all"></i></a>
+  <a href="#"><i class="fas fa-search"></i></a>
+  <a href="#"><i class="fas fa-file-import"></i></a>
+  <a href="#"><i class="fas fa-user-friends"></i></a>
+  
+</div>
+
 <div class="vertical-nav" id="navbarSupportedContent">
     <ul class="nav flex-column">
       <li class="nav-item">
@@ -75,7 +86,7 @@
 
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#">
-              <i class="fas fa-home"></i>
+              <i class="fas fa-border-all"></i>
               Đăng ký đồ án
           </a>
           <div class="navItem dropdown-menu">
@@ -88,14 +99,14 @@
 
       <li class="nav-item">
         <a class="nav-link active" href="#">
-            <i class="fas fa-home"></i>
+            <i class="fas fa-search"></i>
             Tìm kiếm tài liệu
         </a>
       </li>
 
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button">
-              <i class="fas fa-home"></i>
+              <i class="fas fa-file-import"></i>
               Nộp đồ án
           </a>
           <div class="navItem dropdown-menu">
@@ -108,7 +119,7 @@
 
       <li class="nav-item">
         <a class="nav-link active" href="#">
-          <i class="fas fa-home"></i>
+          <i class="fas fa-user-friends"></i>
           Thông tin sinh viên
         </a>
       </li>
@@ -116,6 +127,8 @@
     
     </ul>
 </div>
+</div>
+
 
     <!-- <script src="../js/javascript.js"></script> -->
   </body>
