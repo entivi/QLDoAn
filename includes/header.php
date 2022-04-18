@@ -1,26 +1,13 @@
-<!Doctype html>
-<html lang="en">
-  <head>
-    <title>Project</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">       
-    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
-  </head>
-<body>
+
 <div class="header navbar navbar-expand-lg">
 
   <!-- the right of header -->
   <div class="logo mr-auto ml-3">
         <a href="">
-          <img src="./img/logo.png" alt="">
+          <img style="width: 30px" src="./img/logo.png" alt="">
         </a>
         <a class="ml-3 bars bars-left">
-          <i style="color: #C4C4C4C2"; class="fa fa-bars"></i>
+          <i style="font-size: 18px" style="color: #C4C4C4C2"; class="fa fa-bars"></i>
         </a>
   </div>
 
@@ -63,74 +50,3 @@
   </button>
 
 </div>
-
-
-<div class="navBar">
-<div class="left-icon hide">
-  <a href="#"><i class="fas fa-home"></i></a>
-  <a href="#"><i class="fas fa-border-all"></i></a>
-  <a href="#"><i class="fas fa-search"></i></a>
-  <a href="#"><i class="fas fa-file-import"></i></a>
-  <a href="#"><i class="fas fa-user-friends"></i></a>
-  
-</div>
-
-<div class="vertical-nav" id="navbarSupportedContent">
-    <ul class="nav flex-column">
-      <li class="nav-item">
-          <a class="nav-link active" href="#">
-          <i class="fas fa-home"></i>
-            Trang chủ
-          </a>
-      </li>
-
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#">
-              <i class="fas fa-border-all"></i>
-              Đăng ký đồ án
-          </a>
-          <div class="navItem dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link active" href="#">
-            <i class="fas fa-search"></i>
-            Tìm kiếm tài liệu
-        </a>
-      </li>
-
-      <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button">
-              <i class="fas fa-file-import"></i>
-              Nộp đồ án
-          </a>
-          <div class="navItem dropdown-menu">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link active" href="#">
-          <i class="fas fa-user-friends"></i>
-          Thông tin sinh viên
-        </a>
-      </li>
-
-    
-    </ul>
-</div>
-</div>
-
-
-    <!-- <script src="../js/javascript.js"></script> -->
-  </body>
-</html>
-

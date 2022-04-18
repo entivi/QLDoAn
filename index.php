@@ -6,9 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login_style.css">
 </head>
 <body>
+<div class="signup__container">
+    <div class="container__child signup__thumbnail col-md-6">
+      <div class="signup__overlay"></div>
+    </div>
+    <div class="container__child signup__form col-md-6">
+      <form action="#" method="post" >
+      <div class="form-group" style="margin-top:25px">
+        <label for="username">Tên đăng nhập</label>
+        <input   class="form-control form-control-solid" type="text"  placeholder="Tên đăng nhập" id="username" name="username">
+          
+      </div>
+        
+      <div class="form-group">
+        <label for="password">Mật khẩu</label>
+        <input  class="form-control form-control-solid" type="password" placeholder="Mật khẩu" id="password" name="password">
+          
+      </div>
+        
+          <div class="m-t-lg">
+          <button name="signin" type="submit" class="btn btn--form" style="text-transform:uppercase;color:#fff">ĐĂNG NHẬP</button>
+          </div>
+        <div>
+      </form>  
+    </div>
+    
+  </div>
+
+
+
+<!-- 
     <div class="signup__container">
         <div class="container__child signup__thumbnail col-md-6">
              <div class="signup__overlay"></div>
@@ -29,11 +59,11 @@
                 </div>
             </form>  
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
 
-<style>
+<!-- <style>
     body {
     font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
     background: #e9e9e9;
@@ -43,7 +73,7 @@
   [type="submit"] {
     transition: all .25s ease-in;
   }
-</style>
+</style> -->
 
 <?php
     // session_start();

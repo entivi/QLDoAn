@@ -96,7 +96,7 @@ body{
 .vertical-nav{
     background-color: #414D50;
     width: 250px;
-    height: 90vh;
+    height: 100vh;
     
 }
 
@@ -284,4 +284,13 @@ background: #323232;
     height: 200px;
     width: 300px;
     background-color: blue;
+}
+
+.nav-item > a:hover{
+    color: skyblue;
+}
+
+.navItem > a:hover{
+    background-color: #414D50;
+    color: skyblue;
 }
