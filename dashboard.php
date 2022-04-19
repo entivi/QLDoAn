@@ -17,6 +17,8 @@
     <?php
         include('includes/header.php');
         include('includes/navbar.php');
+        include('includes/aside.php');
+
     ?>
 
     <script src="./js/javascript.js"></script>

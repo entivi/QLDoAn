@@ -75,7 +75,7 @@ body{
     display: flex;
     color: #fff;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
     background-color: #414D50;
     justify-content: space-around;
     padding: 0 10px;
@@ -101,7 +101,7 @@ body{
     display: none;
     background-color: #414D50;
     width: 250px;
-    height: 100vh;
+    height: 1100vh;
     
 }
 
