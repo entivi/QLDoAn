@@ -4,7 +4,7 @@
   <!-- the right of header -->
   <div class="logo mr-auto ml-3">
         <a href="">
-          <img style="width: 30px" src="./img/logo.png" alt="">
+          <img style="width: 45px" src="./img/logo.png" alt="">
         </a>
         <a class="ml-3 bars bars-left">
           <i style="font-size: 18px" style="color: #C4C4C4C2"; class="fa fa-bars"></i>
@@ -32,10 +32,10 @@
             <i class="fas fa-user-circle"></i>
             Đổi mật khẩu
           </a>
-      </li>
+      </li>   
 
       <li>
-          <a class="dropdown-item" href="#">
+          <a class="dropdown-item" href="index.php">
             <i class="fas fa-user-circle"></i>
             Đăng xuất
           </a>
