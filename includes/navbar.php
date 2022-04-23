@@ -15,27 +15,19 @@
         <ul class="nav flex-column">
             <li class="nav-item nav-item-list" style="border-top: 1px solid #B4BCC8;border-bottom: 0.5px solid #B4BCC8;">
                 <a class="nav-link active" href="#">
-                    <span class="iconify" data-icon="ant-design:home-outlined" style="color: white; font-size: 25px"></span>
+                    <i class="fas fa-home"></i>
                     Trang chủ
                 </a>
             </li>
 
             <li class="nav-item dropdown " style="border-bottom: 0.5px solid #B4BCC8;">
                 <a class="nav-link dropdown-toggle" href="#">
-                <span class="iconify" data-icon="ic:baseline-app-registration" style="color: white; font-size: 25px;"></span>
-                Đăng ký đồ án
+                    <i class="fas fa-border-all"></i>
+                    Đăng ký đồ án
                 </a>
                 <div class="navItem dropdown-menu">
-                    
-                <a class="dropdown-item" href="#">
-                    <span class="iconify" data-icon="carbon:shopping-catalog" style="color: white; font-size: 25px;"></span>
-                    Đăng kí làm đồ án
-                </a>
-
-                <a class="dropdown-item" href="#">
-                <span class="iconify" data-icon="carbon:shopping-catalog" style="color: white; font-size: 25px;"></span>
-                    Kết quả đăng kí làm đồ án
-                </a>
+                    <a class="dropdown-item" href="#">Đăng kí làm đồ án</a>
+                    <a class="dropdown-item" href="#">Kết quả đăng kí làm đồ án</a>
                     <!-- <div class="dropdown-divider"></div> -->
                 </div>
             </li>
@@ -55,7 +47,7 @@
             </li> -->
 
             
-            <!-- <li class="nav-item dropdown" style="border-bottom: 0.5px solid #B4BCC8;" >
+            <li class="nav-item dropdown" style="border-bottom: 0.5px solid #B4BCC8;" >
                 <a class="nav-link dropdown-toggle" href="#">
                 <i class="fas fa-file-import"></i>
                     Tác vụ
@@ -65,14 +57,7 @@
                     <a class="dropdown-item" href="#">Hộp thư thoại</a>
                     <div class="dropdown-divider"></div>
                 </div>
-            </li> -->
-
-            <li class="nav-item" style="border-bottom: 0.5px solid #B4BCC8;" >
-                <a class="nav-link active" href="#">
-                    <i class="fas fa-user-friends"></i>
-                    Nộp đồ án
-                </a>
-            </li> 
+            </li>
 
             <li class="nav-item" style="border-bottom: 0.5px solid #B4BCC8;" >
                 <a class="nav-link active" href="#">
@@ -83,4 +68,3 @@
         </ul>
     </div>
 </div>
-<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>

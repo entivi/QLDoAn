@@ -22,7 +22,6 @@ a {
     color: #337ab7;
     text-decoration: none;
     background-color: transparent;
-
 }
 .margin-top-10 {
     margin-top: 10px!important;
@@ -50,3 +49,40 @@ body {
     font-size: 14px;
 }
 
+.dash-let>a>span {
+    transition: all .5s !important;
+    -webkit-transition: all .5s !important;
+    -moz-transition: all .5s !important;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    height: 45px;
+    color: white;
+    padding: 10px 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.dki:hover{
+    background-color: #CB699F;
+}
+
+
+
+.wrapper{
+    display: flex;
+    
+}
+
+
+
+.main{
+    margin: 10px 50px;
+    width: 100%;
+}

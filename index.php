@@ -81,9 +81,9 @@
     if(isset($_POST['signin']))
     {
         $username = $_POST['username'];
-        $password = md5($_POST['password']);
+        $password = $_POST['password'];
 
-        $sql ="SELECT * FROM tblemployees where EmailId ='$username' AND Password ='$password'";
+        $sql ="SELECT * FROM sinhvien where MaSV ='$username' AND password ='$password'";
         $query= mysqli_query($conn, $sql);
         $count = mysqli_num_rows($query);
         if($count > 0)

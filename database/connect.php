@@ -2,8 +2,8 @@
     define('DB_HOST','localhost');
     define('DB_USER','root');
     define('DB_PASS','');
-    define('DB_NAME','aci_leave');
-    $conn = mysqli_connect('localhost','root','','aci_leave') or die(mysqli_error());
+    define('DB_NAME','qlda');
+    $conn = mysqli_connect('localhost','root','','qlda') or die(mysqli_error());
 
     // Establish database connection.
     try

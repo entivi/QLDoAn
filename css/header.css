@@ -4,25 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    
-    
-    /* height: 100%; */
-}
-
-.row{
-    background-color: #414D50;
-    border-radius: 12px;
-    width: 60%;
-    position: fixed;
-    /* width:800px; */
-    /* height: 500px; */
-    /* text-align: center; */
-    top: 50%;
-    left: 50%;
-     transform: translate(-50%, -50%);
-}
-
 .form-center{
     display: flex;
     justify-content: center;
@@ -75,7 +56,7 @@ body{
     display: flex;
     color: #fff;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     background-color: #414D50;
     justify-content: space-around;
     padding: 0 10px;
@@ -101,7 +82,7 @@ body{
     display: none;
     background-color: #414D50;
     width: 250px;
-    height: 1100vh;
+    height: 100vh;
     
 }
 
