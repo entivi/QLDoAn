@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-3 col-xs-12 margin-top-10">
                     <div class="dash-let">
-                        <a href="#" style="display:flex; justify-content: center;" class="dki">
+                        <a href="info_page.php" style="display:flex; justify-content: center;" class="dki">
 
                             <span class="iconify" data-icon="ph:student-fill" style="color: #fefefe; font-size: 150px; "
                                 data-flip="horizontal"></span>

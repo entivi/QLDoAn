@@ -1,6 +1,6 @@
 create table sinhvien(
 	MaSV varchar(10) primary key,
-	HoTen nvarchar(32),
+	HoTen varchar(32),
 	password text
 )
 

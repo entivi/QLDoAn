@@ -14,7 +14,7 @@
         </div>
         <ul class="nav flex-column">
             <li class="nav-item nav-item-list" style="border-top: 1px solid #B4BCC8;border-bottom: 0.5px solid #B4BCC8;">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="dashboard.php">
                     <i class="fas fa-home"></i>
                     Trang chủ
                 </a>

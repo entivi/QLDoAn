@@ -3,7 +3,7 @@
 
   <!-- the right of header -->
   <div class="logo mr-auto ml-3">
-        <a href="">
+        <a href="dashboard.php">
           <img style="width: 45px" src="./img/logo.png" alt="">
         </a>
         <a class="ml-3 bars bars-left">
