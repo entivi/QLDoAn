@@ -60,7 +60,7 @@
             </li>
 
             <li class="nav-item" style="border-bottom: 0.5px solid #B4BCC8;" >
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="info_page.php">
                     <i class="fas fa-user-friends"></i>
                     Thông tin sinh viên
                 </a>
