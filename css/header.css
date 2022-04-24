@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body{
     
     
@@ -20,6 +21,8 @@ body{
      transform: translate(-50%, -50%);
 } */
 
+=======
+>>>>>>> 98687cb6976c2a95d6fb84f73b70d340193ace21
 .form-center{
     display: flex;
     justify-content: center;
@@ -127,6 +130,8 @@ body{
     }
 
 }
+
+
 
 
 

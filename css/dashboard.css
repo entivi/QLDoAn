@@ -1,0 +1,88 @@
+.dash-let>a {
+    margin-bottom: 20px;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: #0071C6;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s !important;
+    -webkit-transition: all .5s !important;
+    -moz-transition: all .5s !important;
+    box-shadow: 0 0 0 0 transparent;
+    -moz-box-shadow: 0 0 0 0 transparent;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+}
+a {
+    text-shadow: none;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+.margin-top-10 {
+    margin-top: 10px!important;
+}
+
+.col-xs-12 {
+    width: 100%;
+    float: left;
+
+}
+
+.col-md-4, .col-sm-3,.col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+body {
+    color: #333;
+    padding: 0!important;
+    margin: 0!important;
+    direction: "ltr";
+    font-size: 14px;
+}
+
+.dash-let>a>span {
+    transition: all .5s !important;
+    -webkit-transition: all .5s !important;
+    -moz-transition: all .5s !important;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    height: 45px;
+    color: white;
+    padding: 10px 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.dki:hover{
+    background-color: #CB699F;
+}
+
+
+
+.wrapper{
+    display: flex;
+    
+}
+
+
+
+.main{
+    margin: 10px 50px;
+    width: 100%;
+}
