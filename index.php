@@ -82,8 +82,14 @@
     {
         $username = $_POST['username'];
         $password = $_POST['password'];
+<<<<<<< HEAD
+        // $password = md5($_POST['password']);
+
+        $sql ="SELECT * FROM SinhVien where MaSV ='$username' AND password ='$password'";
+=======
 
         $sql ="SELECT * FROM sinhvien where MaSV ='$username' AND password ='$password'";
+>>>>>>> 98687cb6976c2a95d6fb84f73b70d340193ace21
         $query= mysqli_query($conn, $sql);
         $count = mysqli_num_rows($query);
         if($count > 0)

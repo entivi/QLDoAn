@@ -33,7 +33,7 @@
             </li>
 
         <li class=" nav-item " style="border-bottom: 0.5px solid #B4BCC8;">
-                <a class="nav-link active" href="#">
+                <a class="nav-link active" href="search_page.php">
                     <i class="fas fa-search"></i>
                     Tìm kiếm tài liệu
                 </a>
